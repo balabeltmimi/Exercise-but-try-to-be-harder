@@ -1,5 +1,5 @@
-var numbers = document.getElementById("nums").value;
-this.addEventListener("click",function() {
+nums.addEventListener("change",function() {
+        var numbers = document.getElementById("nums").value;
         if (numbers % 2 === 0) {
         console.log("It's an even number");
         } else {
